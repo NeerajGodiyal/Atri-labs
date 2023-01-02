@@ -94,6 +94,9 @@ const desktopModeProps = {
     "Flex70": {
       "callbacks": {}
     },
+    "Div60": {
+      "callbacks": {}
+    },
     "Div38": {
       "callbacks": {}
     },
@@ -534,18 +537,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Button8": {
-      "custom": {
-        "text": "Book a Call"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox105": {
       "custom": {
         "text": "Download CV"
@@ -562,6 +553,30 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/right-arrow.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button13": {
+      "custom": {
+        "text": "Submit"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button14": {
+      "custom": {
+        "text": "Submit"
       },
       "callbacks": {
         "onClick": [
@@ -1031,7 +1046,19 @@ const desktopModeProps = {
         ]
       }
     },
-    "Button10": {
+    "Button15": {
+      "custom": {
+        "text": "View all projects"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button16": {
       "custom": {
         "text": "View all projects"
       },
