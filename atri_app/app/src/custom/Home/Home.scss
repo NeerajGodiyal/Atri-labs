@@ -1,15 +1,15 @@
-.p-Home.Button12 {
+.p-Home.Button12:hover, .p-Home.Button12:focus, .p-Home.Button12:active {
     transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
     transform-style: preserve-3d;
-  
 }
+
 
 .p-Home.Button14 {
     background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
     transform: translate(7px, 7px);
 }
 
-.p-Home.Button15 {
+.p-Home.Button15:hover, .p-Home.Button15:focus, .p-Home.Button15:active {
     transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
     transform-style: preserve-3d;
   
@@ -18,4 +18,10 @@
 .p-Home.Button16 {
     background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
     transform: translate(7px, 7px);
+}
+
+.p-Home.TextBox270 , .TextBox162 , .TextBox149 , .TextBox180 , .TextBox219 , .TextBox242{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

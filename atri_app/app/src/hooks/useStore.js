@@ -88,13 +88,13 @@ const desktopModeProps = {
     "Flex50": {
       "callbacks": {}
     },
-    "Flex67": {
-      "callbacks": {}
-    },
     "Flex70": {
       "callbacks": {}
     },
     "Div60": {
+      "callbacks": {}
+    },
+    "Div62": {
       "callbacks": {}
     },
     "Div38": {
@@ -513,30 +513,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox99": {
-      "custom": {
-        "text": "I design products that delight and inspire people."
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox101": {
-      "custom": {
-        "text": "Hi! I’m Jake, a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups."
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox105": {
       "custom": {
         "text": "Download CV"
@@ -577,6 +553,54 @@ const desktopModeProps = {
     "Button14": {
       "custom": {
         "text": "Submit"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox269": {
+      "custom": {
+        "text": "inspire people."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox270": {
+      "custom": {
+        "text": "I design products"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox271": {
+      "custom": {
+        "text": "that delight and "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox272": {
+      "custom": {
+        "text": "Hi! I’m Jake, a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups."
       },
       "callbacks": {
         "onClick": [
